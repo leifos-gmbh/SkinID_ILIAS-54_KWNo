@@ -1,0 +1,38 @@
+div.ilTopBar {
+    background-color: @accent-primary;
+    border-bottom: 5px solid @accent-secondary;
+    color: white;
+    padding: 5px 10px;
+}
+#ilTopBar.ilTopBar {
+    height: 45px;
+}
+#ilTopBarNav > li > a {
+    color: white;
+    background-color: transparent;
+}
+#ilTopBarNav > li > a:hover,
+#ilTopBarNav > li > a:active,
+#ilTopBarNav > li > a:focus {
+    background-color: darken(@accent-primary, 10%);
+}
+#ilTopBarNav > .active > a,
+#ilTopBarNav > .open > a,
+#ilTopBarNav > .active > a:hover,
+#ilTopBarNav > .open > a:hover,
+#ilTopBarNav > .active > a:active,
+#ilTopBarNav > .open > a:active,
+#ilTopBarNav > .active > a:focus
+ #ilTopBarNav > .open > a:focus {
+    background-color: darken(@accent-primary, 10%) !important;
+}
+#ilTopBarNav .dropdown-menu {
+    color: white;
+    background-color: darken(@accent-primary, 10%);
+}
+#ilTopBarNav .dropdown-menu a:hover,
+#ilTopBarNav .dropdown-menu a:active,
+#ilTopBarNav .dropdown-menu a:focus {
+    color: @mid-gray;
+    background-color: white;
+}
